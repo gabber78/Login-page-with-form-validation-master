@@ -28,11 +28,11 @@
               echo 'Signup successfull!';
             }
       ?>
-        <form class="register-form" action="includes/signup.inc.php" method="post">
+        <form class="signup" action="includes/signup.inc.php" method="post">
           <input type="text" name="uid" placeholder="Username">
           <input type="text" name="mail" placeholder="E-mail">
           <input type="password" name="pwd" placeholder="Password">
-          <input type="password" name="pwd-repeat" placeholder="Repeat Password">
+          <input type="password" name="pwd-repeat" placeholder="Repeat Password"><br>
 
           <button type="submit" name="signup-submit">Signup</button>
 

@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php
+
+  session_start();
+
+?>
 
 <!doctype html>
 <html lang="en">
@@ -22,7 +26,7 @@
         <img src="img/logo.png" alt="logo" class="">
 
 
-    <form class="">
+
         <h3> Please Sign In</h3>
         <div class="signin">
             <?php
@@ -40,7 +44,7 @@
                           }
               ?>
       </div>
-    </form>
+  
           <a href="signup.php" class="signup">Signup</a>
   </nav>
 

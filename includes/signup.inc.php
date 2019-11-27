@@ -12,7 +12,7 @@
     $passwordRepeat = $_POST['pwd-repeat'];
 
       if (empty($userName) || empty($email) || empty($password) || empty($passwordRepeat)  ) {
-        header('Location: ../signup.php?error=emptyfields&uid='.$userName.'&mail='.$email); //
+        header('Location: ../signup.php?error=emptyfields&uid='.$userName.'&mail='.$email);
         exit();
       }
         elseif (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/", $$userName)){
